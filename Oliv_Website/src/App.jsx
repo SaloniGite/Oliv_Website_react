@@ -5,6 +5,7 @@ import Slider from './components/Slider'
 import Cards from './components/Cards'
 import Header_ImageCard1 from './components/Header_ImageCard1'
 import Img_card1 from './components/Img_card1'
+import Heading_Card2 from './components/Heading_Card2'
 
 const App = () => {
  const  CardData = [
@@ -74,6 +75,7 @@ const App = () => {
         ))
         }
       </div>
+      <Heading_Card2/>
     </div>
   )
 }
